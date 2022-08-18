@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    height: 110vh;
+    align-items: center;
+    /*background-color:#E73A59;*/
+    background-image: linear-gradient(#FBBB01, #E73A59);
+    background-repeat: repeat;
+    overflow-y: hidden;
+}
+
+#form{
+    padding: 10px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    background-color: #FBBB01;
+    text-align: left;
+}
+
+#form input{
+    padding: 5px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+}
